@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap" rel="stylesheet">
+    <link rel="shortcut icon" href="src/images/favicon.png" type="image/x-icon">
+    <link rel="stylesheet" href="src/css/reset.css">
+    <link rel="stylesheet" href="src/css/style.css">
+    <link rel="stylesheet" href="src/css/responsive.css">
+    <title>Formulário de Cadastro</title>
+</head>
+
+<body>
+  <div class="introducao">
+    <img src="https://static.xx.fbcdn.net/rsrc.php/v3/yO/r/zgulV2zGm8t.png" alt="cl">
+    <h1 class="titulo">Cadastre-se</h1>
+</div>
+  <form id="formulario-contato">
+    <label for="nome">Nome:</label>
+    <input type="text" id="nome" name="nome" required>
+
+    <label for="email">E-mail:</label>
+    <input type="email" id="email" name="email" required>
+
+    <label for="assunto">Assunto:</label>
+    <input type="text" id="assunto" name="assunto" required>
+
+    <label for="mensagem">Mensagem:</label>
+    <textarea id="mensagem" name="mensagem" rows="4" required></textarea>
+
+    <button type="submit">Enviar</button>
+  </form>
+
+  <div id="dados contato"></div>
+
+  <script>
+    const formulario = document.getElementById("formulario-contato");
+    const dadosContato = document.getElementById("dados-contato");
+
+    formulario.addEventListener("submit", function(event) {
+      event.preventDefault();
+
+      const nome = document.getElementById("nome").value;
+      const email = document.getElementById("email").value;
+      const assunto = document.getElementById("assunto").value;
+      const mensagem = document.getElementById("mensagem").value;
+
+      if (validarEmail(email)) {
+        const dados = `
+          <p><strong>Nome:</strong> ${nome}</p>
+          <p><strong>E-mail:</strong> ${email}</p>
+          <p><strong>Assunto:</strong> ${assunto}</p>
+          <p><strong>Mensagem:</strong> ${mensagem}</p>
+        `;
+        dadosContato.innerHTML = dados;
+      } else {
+        dadosContato.innerHTML = "<p>E-mail inválido. Por favor, insira um e-mail válido.</p>";
+      }
+    });
+
+    function validarEmail(email) {
+      const regexEmail = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
+      return regexEmail.test(email);
+    }
+  </script>
+</body>
+</html>
