@@ -7,16 +7,6 @@ Bem-vindo ao repositório "test-mid"! Este repositório contém vários projetos
 
 Aqui estão os projetos disponíveis neste repositório:
 
-### [Formulário](https://github.com/cortezcodar/test-mid/tree/main/Formulario/)
-
-Um projeto de formulário para coletar dados dos usuários.
-
-#### Como Usar o Projeto "Formulário"
-1. Clone este repositório em sua máquina local utilizando o seguinte comando no terminal:
-
-   ```bash
-   git clone https://github.com/cortezcodar/test-mid.git
-
 
 |   **Projetos test-mid**   |     |
 | ----------------------- | ----------------------- |
@@ -26,7 +16,7 @@ Um projeto de formulário para coletar dados dos usuários.
  [algorithm-exercise-Factorial](https://github.com/cortezcodar/test-mid/tree/main/algorithm-exercise-Factorial) 
  [data-structure-exercise-Stack](https://github.com/cortezcodar/test-mid/tree/main/data-structure-exercise-Stack) 
  [object-oriented-exercise-bench-](https://github.com/cortezcodar/test-mid/tree/main/object-oriented-exercise-bench-) 
-[Palindrome](https://github.com/cortezcodar/test-mid/tree/main/object-oriented-exercise-bench-) 
+[Palindrome](https://github.com/cortezcodar/test-mid/tree/main/Palindrome) 
 
 
 
