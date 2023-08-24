@@ -1,5 +1,5 @@
 
-# Alguns projetos simples rs
+# Alguns projetos simples 
 
 Bem-vindo ao repositório, Este repositório contém vários projetos e exercícios para testar e praticar diferentes conceitos de programação.
 
