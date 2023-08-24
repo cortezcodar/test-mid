@@ -1,14 +1,14 @@
 
-# Test-Mid
+# Alguns projetos simples rs
 
-Bem-vindo ao repositório "test-mid"! Este repositório contém vários projetos e exercícios para testar e praticar diferentes conceitos de programação.
+Bem-vindo ao repositório, Este repositório contém vários projetos e exercícios para testar e praticar diferentes conceitos de programação.
 
 ## Projetos Disponíveis
 
 Aqui estão os projetos disponíveis neste repositório:
 
 
-|   **Projetos test-mid**   |     |
+|   **Projeto**   |     |
 | ----------------------- | ----------------------- |
 | [Formulario](https://github.com/cortezcodar/test-mid/tree/main/Formulario/)
  [file-manipulation-exercise-word-Count-](https://github.com/cortezcodar/test-mid/tree/main/file-manipulation-exercise-word-Count-)
